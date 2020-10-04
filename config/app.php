@@ -24,7 +24,7 @@ return [
     | or any other location as required by the application or its packages.
     */  
 
-    'version' => '0.4.6',
+    'version' => '0.4.7',
     /*
     |--------------------------------------------------------------------------
     | Application Environment
