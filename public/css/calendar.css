@@ -1,0 +1,136 @@
+#calendar > div.fc-view-container div.fc-scroller.fc-time-grid-container div.fc-content {
+    font-size: 1.4em;
+}
+
+/* basic positioning */
+.legend { list-style: none; padding-left: 0px;}
+/*.legend li { float: left; margin-right: 10px; }*/
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .available { background-color: #DFF0D8; }
+.legend .taken { background-color: #D7F0F7; }
+.legend .waiting { background-color: #FFB878; }
+.legend .passed { background-color: #E1E1E1; }
+.legend .canceled { background-color: #E1E1E1; }
+.legend .pending { background-color: red; }
+
+th.fc-day-header > span {
+	text-transform: capitalize;
+}
+
+tr.fc-list-heading span.fc-list-heading-main {
+	text-transform: capitalize;	
+}
+
+p.calendar-totals {
+    margin-right: 5px;
+}
+
+a.patient-edit-link, a.patient-new-link {
+    font-size: 0.8em;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.low-disponibility, .xdsoft_datetimepicker .xdsoft_calendar th.low-disponibility
+{
+    background-color: #ffa500;
+    color: #fff;
+    font-weight: bold;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.high-disponibility, .xdsoft_datetimepicker .xdsoft_calendar th.high-disponibility
+{
+    background-color: #0B8043;
+    color: #fff;
+    font-weight: bold;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.high-disponibility:hover, .xdsoft_datetimepicker .xdsoft_calendar th.high-disponibility:hover
+{
+    background-color: #0B8043;
+    color: #fff;
+    font-weight: bold;
+}
+
+.xdsoft_datetimepicker .xdsoft_datepicker .xdsoft_calendar td.xdsoft_today {
+    /*color: #fff;*/
+}
+
+.calendar-form .xdsoft_inline .month_disabled, .calendar-form .xdsoft_inline .year_disabled{
+    background-color: transparent;
+    z-index: 999;
+}
+
+.cargando-fechas{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#deleteModal {
+    z-index: 99999;
+}
+
+.deleteModal .modal-footer i{
+    margin-right: 5px;
+}
+
+input.form-control[readonly]{
+    background-color: white; 
+}
+
+.table-responsive {
+    height:120px;
+}
+
+.search-result-title{
+    font-weight: 700;
+}
+
+table#advancedResultTable tr td a.button { display:none;}
+table#advancedResultTable tr:hover td a.button { display:inline-block;}
+
+.select-table{
+    font-size:14px;
+}
+
+.searchpatient-panel span.msg{
+    font-size:16px;
+}
+
+.calendar-form .xdsoft_datetimepicker .xdsoft_label{
+    z-index: 10;
+}
+
+.alert .close.dismiss-button{
+    color: #fff;
+    opacity: 1;
+}
+
+.fc-toolbar .btn-group {
+    vertical-align: inherit;
+}
+
+.fc-toolbar .dropdown-menu li a {
+    border: none;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    font-size: 16px;
+    color: #000;
+}
+
+div.range-calendar{
+    display: inline-block;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .pull-right-sm {
+        float: right;
+    }
+}
+
+.list-style-none ul{
+    list-style: none;
+}
+
+.list-style-none ul li:first-child{
+    margin-left: -30px;
+}

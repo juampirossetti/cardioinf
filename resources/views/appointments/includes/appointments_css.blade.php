@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="{{ URL::asset('css/datetime.css') }}?v={{ config('app.version') }}">

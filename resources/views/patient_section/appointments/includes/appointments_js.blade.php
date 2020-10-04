@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{{ URL::asset('js/patient/appointment.js') }}?v={{ config('app.version') }}"></script>

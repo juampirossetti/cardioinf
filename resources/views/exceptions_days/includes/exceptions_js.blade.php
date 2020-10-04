@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{{ URL::asset('js/exceptionsdays.js') }}?v={{ config('app.version') }}"></script>
